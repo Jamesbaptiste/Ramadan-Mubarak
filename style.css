@@ -20,6 +20,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* background: linear-gradient(#ffe23b, #e91e1e); */
   background: linear-gradient(#ffeb3b, #e91e63);
 }
 
@@ -28,7 +29,7 @@ section h2 {
   text-align: center;
   font-size: 160px;
   color: #fff;
-  text-shadow: 0 5px 10px rgba(102, 79, 79, 5);
+  text-shadow: 0 5px 10px rgba(0, 0, 0, 5);
 }
 
 section h2 span {
@@ -47,7 +48,7 @@ section h2::before {
   border-left: 15px solid #fff;
   border-radius: 50%;
   transform: rotate(-30deg);
-  box-shadow: -14px 1px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: -14px 1px 10px rgba(0, 0, 0, 0.5);
 }
 
 .mosque {
